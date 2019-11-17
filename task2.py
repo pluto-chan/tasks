@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('transactions.txt', header = None)
+df = pd.read_csv('/usr/local/data/transactions.txt', header = None)
 
 #1
 df.groupby(3).size()
